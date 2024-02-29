@@ -49,7 +49,7 @@ Au lancement du programme, on a deux possibilités :
 
 # Images du jeu
 - Lancement du jeu, on voit qu'il y a une description des évenements lors du parcours du héro
-  ![image](https://github.com/thiongane-ndiaga/Adventurer/assets/60078429/d076d800-27d6-4e18-bd43-b3b0d37268cf)
+  ![image](https://github.com/thiongane-ndiaga/Adventurer/assets/60078429/443ea05b-7072-4478-bc2f-8e33f3474c7e)
 
 - (suite) Modélisation des déplacements du héro sur la carte
   ![image](https://github.com/thiongane-ndiaga/Adventurer/assets/60078429/c46e4e4c-384b-41f9-952e-118d503591e4)
