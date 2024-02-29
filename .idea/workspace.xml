@@ -5,18 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb7127f4-90f0-470c-b3b9-866f159c9d93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/AdventurerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/AdventurerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/exceptions/AdventurerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/exceptions/AdventurerException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/utils/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/utils/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/utils/MessagesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/utils/MessagesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/utils/TextColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/utils/TextColors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/world/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/world/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/world/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/world/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/world/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/world/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cirilgroup/adventurer/utils/FileUtilTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cirilgroup/adventurer/utils/FileUtilTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cirilgroup/adventurer/world/HeroTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cirilgroup/adventurer/world/HeroTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cirilgroup/adventurer/world/MapTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cirilgroup/adventurer/world/MapTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1709213762" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1709213649" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
@@ -29,12 +71,126 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AdventurerApp.executor": "Run",
+    "JUnit.FileUtilTests (1).executor": "Run",
+    "JUnit.FileUtilTests.executor": "Run",
+    "JUnit.FileUtilTests.testGetLines.executor": "Run",
+    "JUnit.HeroTests.executor": "Run",
+    "JUnit.HeroTests.shouldLoadHeroWhenCorrectFilenameIsGiven.executor": "Run",
+    "JUnit.HeroTests.shouldThrowAdventurerExceptionWhenIncorrectFilenameIsGiven.executor": "Run",
+    "JUnit.MapTest.shouldLoadMapWhenCorrectFilenameIsGiven.executor": "Run",
+    "JUnit.MapTest.shouldThrowAdventurerExceptionWhenIncorrectFilenameIsGiven.executor": "Run",
+    "JUnit.MapTests.executor": "Run",
+    "JUnit.MapTests.shouldLoadMapWhenCorrectFilenameIsGiven.executor": "Run",
+    "JUnit.MapTests.shouldReturnFalseWhenMarkAlreadMarkedCell.executor": "Run",
+    "JUnit.MapTests.shouldReturnTrueWhenMarkSpace.executor": "Run",
+    "Maven.Adventurer [test].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "develop",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/nth/IdeaProjects/Adventurer/src/main/resources"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.cirilgroup.adventurer.exceptions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.cirilgroup.adventurer.world" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AdventurerApp">
+    <configuration name="AdventurerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cirilgroup.adventurer.AdventurerApp" />
+      <module name="Adventurer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cirilgroup.adventurer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeroTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Adventurer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cirilgroup.adventurer.world.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cirilgroup.adventurer.world" />
+      <option name="MAIN_CLASS_NAME" value="com.cirilgroup.adventurer.world.HeroTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeroTests.shouldThrowAdventurerExceptionWhenIncorrectFilenameIsGiven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Adventurer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cirilgroup.adventurer.world.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cirilgroup.adventurer.world" />
+      <option name="MAIN_CLASS_NAME" value="com.cirilgroup.adventurer.world.HeroTests" />
+      <option name="METHOD_NAME" value="shouldThrowAdventurerExceptionWhenIncorrectFilenameIsGiven" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Adventurer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cirilgroup.adventurer.world.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cirilgroup.adventurer.world" />
+      <option name="MAIN_CLASS_NAME" value="com.cirilgroup.adventurer.world.MapTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapTests.shouldLoadMapWhenCorrectFilenameIsGiven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Adventurer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cirilgroup.adventurer.world.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cirilgroup.adventurer.world" />
+      <option name="MAIN_CLASS_NAME" value="com.cirilgroup.adventurer.world.MapTests" />
+      <option name="METHOD_NAME" value="shouldLoadMapWhenCorrectFilenameIsGiven" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AdventurerApp" />
+        <item itemvalue="JUnit.HeroTests" />
+        <item itemvalue="JUnit.HeroTests.shouldThrowAdventurerExceptionWhenIncorrectFilenameIsGiven" />
+        <item itemvalue="JUnit.MapTests" />
+        <item itemvalue="JUnit.MapTests.shouldLoadMapWhenCorrectFilenameIsGiven" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
