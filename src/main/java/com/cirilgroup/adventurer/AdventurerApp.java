@@ -1,4 +1,4 @@
-package com.cirilgroup;
+package com.cirilgroup.adventurer;
 
 public class AdventurerApp {
     public static void main(String[] args) {

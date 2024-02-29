@@ -1,4 +1,4 @@
-package com.cirilgroup.utils;
+package com.cirilgroup.adventurer.utils;
 
 import sun.misc.IOUtils;
 

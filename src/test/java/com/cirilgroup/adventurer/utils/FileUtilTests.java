@@ -1,4 +1,4 @@
-package com.cirilgroup.utils;
+package com.cirilgroup.adventurer.utils;
 
 import org.junit.Test;
 
@@ -14,7 +14,7 @@ public class FileUtilTests {
 
     @Test
     public void shouldHaveSameContentWhenFileNameIsGiven() throws URISyntaxException, IOException {
-            String fileName = "fileUtilTests.txt";
+            String fileName = "FileUtilTests.txt";
             List<String> expectedLines = new ArrayList<>();
             expectedLines.add("This is a test");
 
