@@ -69,6 +69,7 @@ public class Map {
                 case ' ':
                     cells[y][x] = c;
                     marked = true;
+                    break;
                 case '#':
                     messagesManager.messages.add("La case ("+x+","+y+") est occupée par les bois impénétrables.");
                     break;
