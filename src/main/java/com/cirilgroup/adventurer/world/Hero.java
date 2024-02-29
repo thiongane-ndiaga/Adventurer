@@ -8,6 +8,9 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.List;
 
+/**
+ * Classe représentant un héro/aventurier
+ */
 public class Hero {
     private final MessagesManager messagesManager = MessagesManager.getInstance();
     private Position initialPosition;
@@ -20,6 +23,11 @@ public class Hero {
         messagesManager.messages.add("Le héro est crée à la position " + initialPosition + ".");
     }
 
+    /**
+     * Permet d'initialiser le héro et ses attributs
+     * @param fileName : nom du fichier contenant les informations du héro
+     * @throws AdventurerException
+     */
     private void loadHero(String fileName) throws AdventurerException {
         List<String> lines;
 
@@ -36,6 +44,10 @@ public class Hero {
         }
     }
 
+    /**
+     * Permet de déplacer le héro sur la carte
+     * @param map : objet de type Map
+     */
     public void move(Map map) {
 
         messagesManager.messages.add("Le héro va faire les déplacements " + movements + ".");

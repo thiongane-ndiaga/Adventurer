@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb7127f4-90f0-470c-b3b9-866f159c9d93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/carte v2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hero.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/AdventurerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/AdventurerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/exceptions/AdventurerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/exceptions/AdventurerException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/utils/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/utils/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/utils/MessagesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/utils/MessagesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/utils/TextColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/utils/TextColors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/world/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/world/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/world/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/world/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/world/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/world/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cirilgroup/adventurer/utils/FileUtilTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cirilgroup/adventurer/utils/FileUtilTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cirilgroup/adventurer/world/HeroTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cirilgroup/adventurer/world/HeroTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cirilgroup/adventurer/world/MapTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cirilgroup/adventurer/world/MapTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

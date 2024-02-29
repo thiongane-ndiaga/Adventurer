@@ -24,6 +24,11 @@ public class Map {
         messagesManager.messages.add("Carte chargée, dimensions : " + getWidth() + " sur " + getHeight());
     }
 
+    /**
+     * Permet d'initialiser la carte et ses attributs
+     * @param filename : nom du fichier contenant la carte
+     * @throws AdventurerException
+     */
     private void loadMap(String filename) throws AdventurerException {
         List<String> lines;
 
@@ -44,7 +49,13 @@ public class Map {
         }
     }
 
-
+    /**
+     * Permet de marquer une cellule sur la carte, si celle n'est pas déjà marquée et qu'elle n'est pas occupée par les bois impénétrables
+     * @param x : coordonnées x
+     * @param y : coordonnées y
+     * @param c : caractère à marquer sur la cellule
+     * @return
+     */
     public boolean markCell(int x, int y, char c) {
 
         boolean marked = false;
@@ -72,6 +83,11 @@ public class Map {
         return marked;
     }
 
+    /**
+     * Permet d'afficher la carte sur la console
+     * En vert : les bois impénétrables
+     * En bleu : les déplacements du héro
+     */
     public void drawMap() {
         for (int y = 0; y < getHeight(); y++) {
             for (int x = 0; x < getWidth(); x++) {

@@ -7,6 +7,10 @@ import static org.junit.Assert.*;
 
 public class HeroTests {
 
+    /**
+     * Teste si le héro est chargé correctement
+     * @throws AdventurerException
+     */
     @Test
     public void shouldLoadHeroWhenCorrectFilenameIsGiven() throws AdventurerException {
         String filename = "HeroTests.txt";
@@ -19,12 +23,20 @@ public class HeroTests {
 
     }
 
+    /**
+     * Teste si le héro ne se charge pas si un mauvais nom de fichier est fourni
+     * @throws AdventurerException
+     */
     @Test
     public void shouldThrowAdventurerExceptionWhenIncorrectFilenameIsGiven() throws AdventurerException {
         String filename = "NoHeroTests.txt";
         assertThrows(AdventurerException.class, () -> new Map(filename));
     }
 
+    /**
+     * Teste si le héro est déplacé correctement
+     * @throws AdventurerException
+     */
     @Test
     public void shouldGotRightPositionWhenHeroMoves() throws AdventurerException {
         String heroFilename = "HeroTests.txt";

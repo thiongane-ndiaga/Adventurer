@@ -1,5 +1,8 @@
 package com.cirilgroup.adventurer.world;
 
+/**
+ * Classe représentant une position de la carte
+ */
 public class Position {
 
     private int x;
@@ -10,12 +13,6 @@ public class Position {
         this.y = y;
     }
 
-    public Position(String positionString) {
-        this(
-                Integer.parseInt(positionString.split(",")[0]),
-                Integer.parseInt(positionString.split(",")[1])
-        );
-    }
 
     public int getX() {
         return x;

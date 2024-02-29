@@ -43,6 +43,12 @@ public class AdventurerApp {
         return new Map(askFileName("la carte", "carte v2.txt"));
     }
 
+    /**
+     * Permet d'obtenir le nom du fichier contenant les informations sur la console
+     * @param description : description sur le fichier
+     * @param defaultFileName : nom du fichier par défaut
+     * @return
+     */
     private static String askFileName(String description, String defaultFileName) {
         System.out.print("Quel est le nom du fichier contenant " + description + " ?\n[appuyez sur ENTRER pour utiliser le fichier par défaut: " + defaultFileName + "]\n");
         Scanner in = new Scanner(System.in);

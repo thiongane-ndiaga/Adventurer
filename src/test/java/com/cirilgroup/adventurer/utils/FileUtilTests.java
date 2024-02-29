@@ -12,6 +12,11 @@ import static org.junit.Assert.assertEquals;
 
 public class FileUtilTests {
 
+    /**
+     * Teste si le fichier est chargé correctement
+     * @throws URISyntaxException
+     * @throws IOException
+     */
     @Test
     public void shouldHaveSameContentWhenFileNameIsGiven() throws URISyntaxException, IOException {
             String fileName = "FileUtilTests.txt";
