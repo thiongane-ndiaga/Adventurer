@@ -35,14 +35,22 @@ public class Map {
         try {
             lines = FileUtil.getLines(this.getClass(), filename);
 
-            setCells(new char[lines.size()][lines.get(0).length()]);
+            setHeight(lines.size());
+            setWidth(lines.get(0).length());
+            setCells(new char[height][width]);
 
-            for (int i = 0; i < lines.size(); i++) {
+            lines.forEach(line -> {
+
+            });
+
+            for (int i = 0; i < height; i++) {
+                // Vérification de la taille des lignes (Elles doivent être de même taille)
+                if(lines.get(i).length() < width) {
+                    throw new AdventurerException("Impossible de charger la carte. La taille de la ligne " + (i+1) + " est différente des premières.");
+                }
                 cells[i] = lines.get(i).toCharArray();
             }
 
-            setHeight(cells.length);
-            setWidth(cells[0].length);
 
         } catch (URISyntaxException | IOException | NullPointerException e) {
             throw new AdventurerException("Impossible de charger la carte. Vérifiez si le fichier '" + filename + "'se trouve dans resources/");

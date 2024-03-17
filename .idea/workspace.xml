@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb7127f4-90f0-470c-b3b9-866f159c9d93" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/AdventurerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/AdventurerApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/world/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cirilgroup/adventurer/world/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/carte v2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/carte v2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hero.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hero.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +70,7 @@
     &quot;Application.AdventurerApp.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.FileUtilTests (1).executor&quot;: &quot;Run&quot;,
     &quot;JUnit.FileUtilTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FileUtilTests.shouldHaveSameContentWhenFileNameIsGiven.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.FileUtilTests.testGetLines.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.HeroTests.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.HeroTests.shouldLoadHeroWhenCorrectFilenameIsGiven.executor&quot;: &quot;Run&quot;,
@@ -111,6 +116,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FileUtilTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Adventurer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cirilgroup.adventurer.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cirilgroup.adventurer.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.cirilgroup.adventurer.utils.FileUtilTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileUtilTests.shouldHaveSameContentWhenFileNameIsGiven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Adventurer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cirilgroup.adventurer.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cirilgroup.adventurer.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.cirilgroup.adventurer.utils.FileUtilTests" />
+      <option name="METHOD_NAME" value="shouldHaveSameContentWhenFileNameIsGiven" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HeroTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Adventurer" />
       <extension name="coverage">
@@ -122,22 +158,6 @@
       <option name="PACKAGE_NAME" value="com.cirilgroup.adventurer.world" />
       <option name="MAIN_CLASS_NAME" value="com.cirilgroup.adventurer.world.HeroTests" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeroTests.shouldThrowAdventurerExceptionWhenIncorrectFilenameIsGiven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Adventurer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cirilgroup.adventurer.world.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cirilgroup.adventurer.world" />
-      <option name="MAIN_CLASS_NAME" value="com.cirilgroup.adventurer.world.HeroTests" />
-      <option name="METHOD_NAME" value="shouldThrowAdventurerExceptionWhenIncorrectFilenameIsGiven" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,29 +177,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapTests.shouldLoadMapWhenCorrectFilenameIsGiven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Adventurer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cirilgroup.adventurer.world.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cirilgroup.adventurer.world" />
-      <option name="MAIN_CLASS_NAME" value="com.cirilgroup.adventurer.world.MapTests" />
-      <option name="METHOD_NAME" value="shouldLoadMapWhenCorrectFilenameIsGiven" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.AdventurerApp" />
-        <item itemvalue="JUnit.HeroTests" />
-        <item itemvalue="JUnit.HeroTests.shouldThrowAdventurerExceptionWhenIncorrectFilenameIsGiven" />
         <item itemvalue="JUnit.MapTests" />
-        <item itemvalue="JUnit.MapTests.shouldLoadMapWhenCorrectFilenameIsGiven" />
+        <item itemvalue="JUnit.HeroTests" />
+        <item itemvalue="JUnit.FileUtilTests.shouldHaveSameContentWhenFileNameIsGiven" />
+        <item itemvalue="JUnit.FileUtilTests" />
       </list>
     </recent_temporary>
   </component>

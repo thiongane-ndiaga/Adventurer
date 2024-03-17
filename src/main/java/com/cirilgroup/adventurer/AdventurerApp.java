@@ -27,12 +27,11 @@ public class AdventurerApp {
 
             map.drawMap();
 
+            System.out.println("\nFin de l'aventure.");
+
         } catch (AdventurerException e) {
             System.err.println(e.getMessage());
         }
-
-        System.out.println("\nFin de l'aventure.");
-
     }
 
     private static Hero getHero() throws AdventurerException {
